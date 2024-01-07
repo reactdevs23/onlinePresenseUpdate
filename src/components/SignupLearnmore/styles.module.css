@@ -1,0 +1,41 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  min-width: 130px;
+  line-height: 100%;
+  padding: 10px 26px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #5c07e8;
+  color: #ffffff;
+  transition: color 0.25s ease, background-color 0.25s ease,
+    border-color 0.25s ease;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.learnMore {
+  background: #fff;
+  color: #000;
+}
+.button:hover {
+  background-color: #2f26ad;
+}
+
+@media only screen and (max-width: 520px) {
+  .button {
+    font-size: 14px;
+  }
+}
