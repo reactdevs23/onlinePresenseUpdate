@@ -8,7 +8,7 @@ const Calendly = () => {
       <h2 className={styles.title}>
         Book a call, let’s <span className={styles.highlight}>Scale</span>{" "}
       </h2>
-      <InlineWidget url="https://calendly.com/dalimkumar604" />
+      <InlineWidget url="https://calendly.com/dummylink12" />
     </div>
   );
 };
