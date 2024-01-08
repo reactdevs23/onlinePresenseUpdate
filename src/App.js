@@ -16,6 +16,7 @@ import StillNotConvenced from "./components/StillNotConvinced/StillNotConvinced"
 import Calendly from "./components/Calendly/Calendly";
 import BookACall from "./components/BookACall/BookACall";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <AboutUs />
       <GetFreeAccess />
       <Calendly />
+      <Footer />
     </>
   );
 }
