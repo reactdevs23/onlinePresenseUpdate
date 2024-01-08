@@ -13,15 +13,19 @@ import LeadGeneration from "./components/LeadGeneration";
 import MasteringPositioning from "./components/MasteringPositioning";
 import OfferCreation from "./components/OfferCreation";
 import StillNotConvenced from "./components/StillNotConvinced/StillNotConvinced";
+import Calendly from "./components/Calendly/Calendly";
+import BookACall from "./components/BookACall/BookACall";
+import TrustedBy from "./components/TrustedBy/TrustedBy";
 
 function App() {
   return (
     <>
       <Herosection />
+      <TrustedBy />
+      <BookACall />
       <Portfolio />
-
+      <BookACall />
       <CurrentlyStruggling />
-
       <GetFreeAccess />
       <ContentCreation />
       <OfferCreation />
@@ -33,9 +37,11 @@ function App() {
       <CreatingAssets />
       <MasteringPositioning />
       <StillNotConvenced />
+      <BookACall />
       <GetFreeAccess />
       <AboutUs />
       <GetFreeAccess />
+      <Calendly />
     </>
   );
 }

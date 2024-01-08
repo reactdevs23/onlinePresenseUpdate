@@ -22,6 +22,16 @@ import img19 from "./img19.jpg";
 import img20 from "./img20.jpg";
 import aboutUs from "./aboutus.jpg";
 import firstGif from "./1.gif";
+import first from "./partners/1.png";
+import second from "./partners/2.png";
+import third from "./partners/3.png";
+import fourth from "./partners/4.png";
+import fifth from "./partners/5.png";
+import sixth from "./partners/6.png";
+import seventh from "./partners/7.png";
+import eighth from "./partners/8.png";
+import nineth from "./partners/9.png";
+import tenth from "./partners/10.png";
 
 export {
   card1,
@@ -48,4 +58,14 @@ export {
   img20,
   aboutUs,
   firstGif,
+  first,
+  second,
+  third,
+  fourth,
+  fifth,
+  sixth,
+  seventh,
+  eighth,
+  nineth,
+  tenth,
 };
