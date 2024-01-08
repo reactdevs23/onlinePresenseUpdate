@@ -48,7 +48,7 @@ const Footer = () => {
           {/* <div className={styles.logoContainer}>
             <img src={monthlyUsage} alt="#" className={styles.logo} />
           </div> */}
-          <h2 className={styles.logo}>Logo</h2>
+          <h2 className={styles.logoText}>Logo</h2>
           <p className={styles.info}>
             Lorem ipsum dolor sit amet, contur ading elit. Ut elit tellus,
             luctus nec.
