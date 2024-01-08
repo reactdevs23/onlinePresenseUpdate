@@ -1,3 +1,4 @@
+import logo from "./logo.jpg";
 import card1 from "./card1.jpg";
 import contentCreation from "./contentCreation.gif";
 import img1 from "./img1.jpg";
@@ -34,6 +35,7 @@ import nineth from "./partners/9.png";
 import tenth from "./partners/10.png";
 
 export {
+  logo,
   card1,
   contentCreation,
   img1,

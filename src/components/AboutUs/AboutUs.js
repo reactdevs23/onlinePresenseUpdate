@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const AboutUs = () => {
   return (
-    <section className="mainWrapper">
+    <section className="mainWrapper" id="about">
       <div className={styles.wrapper}>
         <img src={aboutUs} className={styles.image} alt="#" />
         <div className={styles.infoContainer}>

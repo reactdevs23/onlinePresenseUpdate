@@ -19,7 +19,7 @@ const ContentCreation = () => {
     },
   ];
   return (
-    <section className="mainWrapper">
+    <section className="mainWrapper" id="roadmap">
       <div className={styles.wrapper}>
         <div className={styles.frame}>
           <img src={contentCreation} alt="#" className={styles.image} />

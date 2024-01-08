@@ -10,6 +10,7 @@ import {
 } from "react-icons/md";
 
 import styles from "./Footer.module.css";
+import { logo } from "../../images";
 
 const Footer = () => {
   const socialItems = [
@@ -45,10 +46,10 @@ const Footer = () => {
     <div className={styles.footer}>
       <footer className={[styles.wrapper, "mainWrapper"].join(" ")}>
         <div className={styles.logoAndInfo}>
-          {/* <div className={styles.logoContainer}>
-            <img src={monthlyUsage} alt="#" className={styles.logo} />
-          </div> */}
-          <h2 className={styles.logoText}>Logo</h2>
+          <div className={styles.logoContainer}>
+            <img src={logo} alt="#" className={styles.logo} />
+          </div>
+         
           <p className={styles.info}>
             Lorem ipsum dolor sit amet, contur ading elit. Ut elit tellus,
             luctus nec.

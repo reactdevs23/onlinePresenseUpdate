@@ -17,10 +17,12 @@ import Calendly from "./components/Calendly/Calendly";
 import BookACall from "./components/BookACall/BookACall";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Herosection />
       <TrustedBy />
       <BookACall />

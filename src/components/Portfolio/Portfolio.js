@@ -46,7 +46,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className={styles.mainWrapper}>
+    <div className={styles.mainWrapper} id="portfolio">
       <div className={styles.textContainer}>
         <p className={styles.text}>Portfolio</p>
         <h2 className={styles.title}>

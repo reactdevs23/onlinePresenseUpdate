@@ -25,7 +25,7 @@ import {
 
 const StillNotConvinced = () => {
   return (
-    <section className="mainWrapper">
+    <section className="mainWrapper" id="feature">
       <div className={styles.wrapper} id="stillNotConvinced">
         <h2 className={styles.title}>
           {" "}

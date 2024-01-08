@@ -36,8 +36,10 @@
   color: #fff;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .logoTextContainer {
@@ -46,9 +48,7 @@
   flex-direction: column;
   gap: 4px;
 }
-.logo {
-  width: 130px;
-}
+
 .info {
   color: #fff;
 

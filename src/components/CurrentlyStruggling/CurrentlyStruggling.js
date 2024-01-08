@@ -21,7 +21,7 @@ const CurrentlyStruggling = () => {
     },
   ];
   return (
-    <section className="mainWrapper">
+    <section className="mainWrapper" id="service">
       <div className={styles.wrapper}>
         <h2 className={styles.title}>
           IF YOU'RE CURRENTLY <br />{" "}
